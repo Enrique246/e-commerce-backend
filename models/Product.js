@@ -26,8 +26,6 @@ product_name: {
 price: {
   type: DataTypes.DECIMAL,
   allowNull: false,
-  primaryKey: true,
-  autoIncrement: true,
   validate: {
     isDecimal: true,
   },
@@ -48,7 +46,6 @@ isInt: true,
   category_id: {
     // Integer.
 type: DataTypes.INTEGER,  
-    
     // References the Category model's id.
     references: {
       model: 'Category',
