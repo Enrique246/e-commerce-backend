@@ -3,6 +3,7 @@ const { Category, Product } = require('../../models');
 
 // The `/api/categories` endpoint
 
+// Excersie 23 API -13-ORM-
 router.get('/', (req, res) => {
   // find all categories
   // be sure to include its associated Products
