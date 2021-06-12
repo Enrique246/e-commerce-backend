@@ -19,11 +19,6 @@ Category.init(
       allowNull: false,
 
   },
-  product: {
-    type: DataTypes.INTEGER,
-    allowNull: false,
-    primaryKey: true,
-  },
 },
   {
     sequelize,
