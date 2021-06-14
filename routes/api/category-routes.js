@@ -4,7 +4,7 @@ const { Category, Product, Tag, ProductTag } = require('../../models');
 // The `/api/categories` endpoint
 
 // Excersie 23 API -13-ORM-
-router.get('/', (req, res) => {
+router.get('/', async (req, res) => {
   // find all categories
   try{
     const categoryData = await Category.findAll({
@@ -17,7 +17,7 @@ router.get('/', (req, res) => {
   // be sure to include its associated Products
 });
 
-router.get('/:id', (req, res) => {
+router.get('/:id', async (req, res) => {
   // find one category by its `id` value
   try {
     const categoryData = await Category.findByPk(req.params.id, {
@@ -36,7 +36,7 @@ router.get('/:id', (req, res) => {
   // be sure to include its associated Products
 });
 
-router.post('/', (req, res) => {
+router.post('/', async (req, res) => {
   // create a new category
   try {
     const categoryData = await Category.create(req.body);
@@ -49,6 +49,7 @@ router.post('/', (req, res) => {
 router.put('/:id', (req, res) => {
   // update a category by its `id` value
   // Exercise 13 ORM
+  // Exercise 7 -13-ORM
   // Updates book based on its isbn
 //   // Calls the update method on the Book model
     Category.update(
@@ -56,6 +57,10 @@ router.put('/:id', (req, res) => {
 {
 id: req.body.id,
 category_name: req.body.category_name
+},{
+where:{
+id: req.params.id,
+}
 }
 
     )
@@ -71,7 +76,7 @@ res.json(updatedCategory);
 });
   
 
-router.delete('/:id', (req, res) => {
+router.delete('/:id',async (req, res) => {
   // delete a category by its `id` value
   try {
     const categoryData = await Category.destroy({
