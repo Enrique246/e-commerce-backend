@@ -33,6 +33,14 @@ THEN I am able to successfully create, update, and delete data in my database
 - MySQL
 
 ## Usage
+Please watch the next videos for usage details:
+
+- [Server (Video)](https://drive.google.com/file/d/1v506MqKIUo5dyyOMOWTmC0KyCDeoTIHf/view)
+
+- [Get single product/PUT/POST/DELETE (Video)](https://drive.google.com/file/d/1lCwlO7fEFy4LYcJ92dZJ2NojJS2ULTuO/view)
+
+- [Technical Acceptance/Create Schema.sql/Get routes (Video)](https://drive.google.com/file/d/1p2_Lb32lgkO9DkTvHAGTNFKgoBmjlXow/view)
+
 
 ## Resources
 - https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Async_await
