@@ -1,5 +1,3 @@
-## Homework 13
-
 ## E-Commerce Back-end
 ### Description
 - What was your motivation?
