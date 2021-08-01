@@ -24,7 +24,7 @@ THEN I am able to successfully create, update, and delete data in my database
   - Mapping and returning elements from a database
   - Insomnia functions
 
-### Lenguages Required:
+### Languages Required:
 - Node.js
 - JavaScript
 - Sequalize
