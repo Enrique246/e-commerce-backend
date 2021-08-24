@@ -3,8 +3,9 @@
 - What was your motivation?
   - Learning to build a back-end structure for a e-commerce app.
 - Why did you build this project?  
-  - To undesterstand how sql and Node.js relate and work togather.
-- What problem does it solve?
+  - To understand how SQL and Node.js relate and work togather.
+
+### Summary
 ```
 GIVEN a functional Express.js API
 WHEN I add my database name, MySQL username, and MySQL password to an environment variable file
@@ -35,10 +36,16 @@ Please watch the next videos for usage details:
 
 - [Server (Video)](https://drive.google.com/file/d/1v506MqKIUo5dyyOMOWTmC0KyCDeoTIHf/view)
 
+![Server Start](images/server-start.png)
+
+
 - [Get single product/PUT/POST/DELETE (Video)](https://drive.google.com/file/d/1lCwlO7fEFy4LYcJ92dZJ2NojJS2ULTuO/view)
+
+![Single Product](images/get-single-product.png)
 
 - [Technical Acceptance/Create Schema.sql/Get routes (Video)](https://drive.google.com/file/d/1p2_Lb32lgkO9DkTvHAGTNFKgoBmjlXow/view)
 
+![Technical Acceptance](images/technical-acceptance.png)
 
 ## Resources
 - https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Async_await
